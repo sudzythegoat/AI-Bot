@@ -2,6 +2,9 @@
 
 ## Commands
 -gpt 
-Provides an AI generated answer\n
+
+Provides an AI generated answer
+
 ex: -gpt Hi there!
+
 returns Hello! How can I help you?
