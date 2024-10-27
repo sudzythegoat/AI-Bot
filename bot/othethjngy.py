@@ -8,8 +8,6 @@ token = os.getenv("BOT_TOKEN")
 bot = commands.Bot(command_prefix="?")
 client = Client()
 @bot.command()
-async def ipgeo
-@bot.command()
 async def gpt(ctx, *, prompt):
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
